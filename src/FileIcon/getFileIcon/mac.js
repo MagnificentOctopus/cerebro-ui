@@ -1,6 +1,6 @@
 /* eslint new-cap: 0 */
 const macOS = typeof window !== 'undefined'
-  ? window.require('nodobjc')
+  ? window.require('objc')
   : {
     framework: () => {}
   }
